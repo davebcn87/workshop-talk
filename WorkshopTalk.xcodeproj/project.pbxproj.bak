@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		946D25C5E69F4DCB9BB1C45E /* libPods-WorkshopTalkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6690C7FD0CD41678E680163 /* libPods-WorkshopTalkTests.a */; };
+		A0AC98AD1807F01900533274 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AC98AC1807F01900533274 /* SenTestingKit.framework */; };
+		A0C5F83C1807ED8E00D639FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C5F83B1807ED8E00D639FC /* Foundation.framework */; };
+		A0C5F83E1807ED8E00D639FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C5F83D1807ED8E00D639FC /* CoreGraphics.framework */; };
+		A0C5F8401807ED8E00D639FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C5F83F1807ED8E00D639FC /* UIKit.framework */; };
+		A0C5F8461807ED8E00D639FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0C5F8441807ED8E00D639FC /* InfoPlist.strings */; };
+		A0C5F8481807ED8E00D639FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C5F8471807ED8E00D639FC /* main.m */; };
+		A0C5F84C1807ED8E00D639FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C5F84B1807ED8E00D639FC /* AppDelegate.m */; };
+		A0C5F84F1807ED8E00D639FC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C5F84D1807ED8E00D639FC /* Main_iPhone.storyboard */; };
+		A0C5F8521807ED8E00D639FC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C5F8501807ED8E00D639FC /* Main_iPad.storyboard */; };
+		A0C5F8551807ED8E00D639FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C5F8541807ED8E00D639FC /* ViewController.m */; };
+		A0C5F8571807ED8E00D639FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C5F8561807ED8E00D639FC /* Images.xcassets */; };
+		A0C5F85F1807ED8E00D639FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C5F83B1807ED8E00D639FC /* Foundation.framework */; };
+		A0C5F8601807ED8E00D639FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C5F83F1807ED8E00D639FC /* UIKit.framework */; };
+		A0C5F8681807ED8E00D639FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0C5F8661807ED8E00D639FC /* InfoPlist.strings */; };
+		A0C5F8741807EF5000D639FC /* WorkshopSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C5F8731807EF5000D639FC /* WorkshopSpecs.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0C5F8611807ED8E00D639FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0C5F8301807ED8E00D639FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0C5F8371807ED8E00D639FC;
+			remoteInfo = WorkshopTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66B41D4159A64058AD9426B0 /* Pods-WorkshopTalkTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkshopTalkTests.xcconfig"; path = "Pods/Pods-WorkshopTalkTests.xcconfig"; sourceTree = "<group>"; };
+		A0AC98AC1807F01900533274 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A0C5F8381807ED8E00D639FC /* WorkshopTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkshopTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C5F83B1807ED8E00D639FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A0C5F83D1807ED8E00D639FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A0C5F83F1807ED8E00D639FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A0C5F8431807ED8E00D639FC /* WorkshopTalk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WorkshopTalk-Info.plist"; sourceTree = "<group>"; };
+		A0C5F8451807ED8E00D639FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0C5F8471807ED8E00D639FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0C5F8491807ED8E00D639FC /* WorkshopTalk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WorkshopTalk-Prefix.pch"; sourceTree = "<group>"; };
+		A0C5F84A1807ED8E00D639FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0C5F84B1807ED8E00D639FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0C5F84E1807ED8E00D639FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A0C5F8511807ED8E00D639FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A0C5F8531807ED8E00D639FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A0C5F8541807ED8E00D639FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A0C5F8561807ED8E00D639FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A0C5F85C1807ED8E00D639FC /* WorkshopTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkshopTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C5F85D1807ED8E00D639FC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A0C5F8651807ED8E00D639FC /* WorkshopTalkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WorkshopTalkTests-Info.plist"; sourceTree = "<group>"; };
+		A0C5F8671807ED8E00D639FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0C5F8731807EF5000D639FC /* WorkshopSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkshopSpecs.m; sourceTree = "<group>"; };
+		E6690C7FD0CD41678E680163 /* libPods-WorkshopTalkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WorkshopTalkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0C5F8351807ED8E00D639FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C5F83E1807ED8E00D639FC /* CoreGraphics.framework in Frameworks */,
+				A0C5F8401807ED8E00D639FC /* UIKit.framework in Frameworks */,
+				A0C5F83C1807ED8E00D639FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C5F8591807ED8E00D639FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0AC98AD1807F01900533274 /* SenTestingKit.framework in Frameworks */,
+				A0C5F8601807ED8E00D639FC /* UIKit.framework in Frameworks */,
+				A0C5F85F1807ED8E00D639FC /* Foundation.framework in Frameworks */,
+				946D25C5E69F4DCB9BB1C45E /* libPods-WorkshopTalkTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0C5F82F1807ED8E00D639FC = {
+			isa = PBXGroup;
+			children = (
+				A0C5F8411807ED8E00D639FC /* WorkshopTalk */,
+				A0C5F8631807ED8E00D639FC /* WorkshopTalkTests */,
+				A0C5F83A1807ED8E00D639FC /* Frameworks */,
+				A0C5F8391807ED8E00D639FC /* Products */,
+				66B41D4159A64058AD9426B0 /* Pods-WorkshopTalkTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		A0C5F8391807ED8E00D639FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0C5F8381807ED8E00D639FC /* WorkshopTalk.app */,
+				A0C5F85C1807ED8E00D639FC /* WorkshopTalkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0C5F83A1807ED8E00D639FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0AC98AC1807F01900533274 /* SenTestingKit.framework */,
+				A0C5F83B1807ED8E00D639FC /* Foundation.framework */,
+				A0C5F83D1807ED8E00D639FC /* CoreGraphics.framework */,
+				A0C5F83F1807ED8E00D639FC /* UIKit.framework */,
+				A0C5F85D1807ED8E00D639FC /* XCTest.framework */,
+				E6690C7FD0CD41678E680163 /* libPods-WorkshopTalkTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0C5F8411807ED8E00D639FC /* WorkshopTalk */ = {
+			isa = PBXGroup;
+			children = (
+				A0C5F84A1807ED8E00D639FC /* AppDelegate.h */,
+				A0C5F84B1807ED8E00D639FC /* AppDelegate.m */,
+				A0C5F84D1807ED8E00D639FC /* Main_iPhone.storyboard */,
+				A0C5F8501807ED8E00D639FC /* Main_iPad.storyboard */,
+				A0C5F8531807ED8E00D639FC /* ViewController.h */,
+				A0C5F8541807ED8E00D639FC /* ViewController.m */,
+				A0C5F8561807ED8E00D639FC /* Images.xcassets */,
+				A0C5F8421807ED8E00D639FC /* Supporting Files */,
+			);
+			path = WorkshopTalk;
+			sourceTree = "<group>";
+		};
+		A0C5F8421807ED8E00D639FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0C5F8431807ED8E00D639FC /* WorkshopTalk-Info.plist */,
+				A0C5F8441807ED8E00D639FC /* InfoPlist.strings */,
+				A0C5F8471807ED8E00D639FC /* main.m */,
+				A0C5F8491807ED8E00D639FC /* WorkshopTalk-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0C5F8631807ED8E00D639FC /* WorkshopTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0C5F8641807ED8E00D639FC /* Supporting Files */,
+				A0C5F8731807EF5000D639FC /* WorkshopSpecs.m */,
+			);
+			path = WorkshopTalkTests;
+			sourceTree = "<group>";
+		};
+		A0C5F8641807ED8E00D639FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0C5F8651807ED8E00D639FC /* WorkshopTalkTests-Info.plist */,
+				A0C5F8661807ED8E00D639FC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0C5F8371807ED8E00D639FC /* WorkshopTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C5F86D1807ED8E00D639FC /* Build configuration list for PBXNativeTarget "WorkshopTalk" */;
+			buildPhases = (
+				A0C5F8341807ED8E00D639FC /* Sources */,
+				A0C5F8351807ED8E00D639FC /* Frameworks */,
+				A0C5F8361807ED8E00D639FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkshopTalk;
+			productName = WorkshopTalk;
+			productReference = A0C5F8381807ED8E00D639FC /* WorkshopTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0C5F85B1807ED8E00D639FC /* WorkshopTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C5F8701807ED8E00D639FC /* Build configuration list for PBXNativeTarget "WorkshopTalkTests" */;
+			buildPhases = (
+				36D3AFB53DE34261B969DD26 /* Check Pods Manifest.lock */,
+				A0C5F8581807ED8E00D639FC /* Sources */,
+				A0C5F8591807ED8E00D639FC /* Frameworks */,
+				A0C5F85A1807ED8E00D639FC /* Resources */,
+				6EA292BDFA404F2B933C2A49 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0C5F8621807ED8E00D639FC /* PBXTargetDependency */,
+			);
+			name = WorkshopTalkTests;
+			productName = WorkshopTalkTests;
+			productReference = A0C5F85C1807ED8E00D639FC /* WorkshopTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0C5F8301807ED8E00D639FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Lafosca;
+				TargetAttributes = {
+					A0C5F85B1807ED8E00D639FC = {
+						TestTargetID = A0C5F8371807ED8E00D639FC;
+					};
+				};
+			};
+			buildConfigurationList = A0C5F8331807ED8E00D639FC /* Build configuration list for PBXProject "WorkshopTalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0C5F82F1807ED8E00D639FC;
+			productRefGroup = A0C5F8391807ED8E00D639FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0C5F8371807ED8E00D639FC /* WorkshopTalk */,
+				A0C5F85B1807ED8E00D639FC /* WorkshopTalkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0C5F8361807ED8E00D639FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C5F8521807ED8E00D639FC /* Main_iPad.storyboard in Resources */,
+				A0C5F8571807ED8E00D639FC /* Images.xcassets in Resources */,
+				A0C5F84F1807ED8E00D639FC /* Main_iPhone.storyboard in Resources */,
+				A0C5F8461807ED8E00D639FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C5F85A1807ED8E00D639FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C5F8681807ED8E00D639FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36D3AFB53DE34261B969DD26 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6EA292BDFA404F2B933C2A49 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-WorkshopTalkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0C5F8341807ED8E00D639FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C5F8551807ED8E00D639FC /* ViewController.m in Sources */,
+				A0C5F84C1807ED8E00D639FC /* AppDelegate.m in Sources */,
+				A0C5F8481807ED8E00D639FC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C5F8581807ED8E00D639FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C5F8741807EF5000D639FC /* WorkshopSpecs.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0C5F8621807ED8E00D639FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0C5F8371807ED8E00D639FC /* WorkshopTalk */;
+			targetProxy = A0C5F8611807ED8E00D639FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0C5F8441807ED8E00D639FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C5F8451807ED8E00D639FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A0C5F84D1807ED8E00D639FC /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C5F84E1807ED8E00D639FC /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A0C5F8501807ED8E00D639FC /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C5F8511807ED8E00D639FC /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A0C5F8661807ED8E00D639FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C5F8671807ED8E00D639FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0C5F86B1807ED8E00D639FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0C5F86C1807ED8E00D639FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0C5F86E1807ED8E00D639FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorkshopTalk/WorkshopTalk-Prefix.pch";
+				INFOPLIST_FILE = "WorkshopTalk/WorkshopTalk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A0C5F86F1807ED8E00D639FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorkshopTalk/WorkshopTalk-Prefix.pch";
+				INFOPLIST_FILE = "WorkshopTalk/WorkshopTalk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A0C5F8711807ED8E00D639FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66B41D4159A64058AD9426B0 /* Pods-WorkshopTalkTests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WorkshopTalk.app/WorkshopTalk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorkshopTalk/WorkshopTalk-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WorkshopTalkTests/WorkshopTalkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A0C5F8721807ED8E00D639FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66B41D4159A64058AD9426B0 /* Pods-WorkshopTalkTests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WorkshopTalk.app/WorkshopTalk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorkshopTalk/WorkshopTalk-Prefix.pch";
+				INFOPLIST_FILE = "WorkshopTalkTests/WorkshopTalkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0C5F8331807ED8E00D639FC /* Build configuration list for PBXProject "WorkshopTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C5F86B1807ED8E00D639FC /* Debug */,
+				A0C5F86C1807ED8E00D639FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C5F86D1807ED8E00D639FC /* Build configuration list for PBXNativeTarget "WorkshopTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C5F86E1807ED8E00D639FC /* Debug */,
+				A0C5F86F1807ED8E00D639FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C5F8701807ED8E00D639FC /* Build configuration list for PBXNativeTarget "WorkshopTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C5F8711807ED8E00D639FC /* Debug */,
+				A0C5F8721807ED8E00D639FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0C5F8301807ED8E00D639FC /* Project object */;
+}

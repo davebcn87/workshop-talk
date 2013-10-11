@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0b15ec0e55f00822afc744bf /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C5F83D1807ED8E00D639FC /* CoreGraphics.framework */; };
+		17038a641d368aad8a21f81e /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C5F8561807ED8E00D639FC /* Images.xcassets */; };
+		2ba748f0edaad060577ef5aa /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0C5F8441807ED8E00D639FC /* InfoPlist.strings */; };
+		2e708d5e944dc177c72ff314 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C5F83F1807ED8E00D639FC /* UIKit.framework */; };
+		3776e8e5c9993bdbd702c2c1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C5F84B1807ED8E00D639FC /* AppDelegate.m */; };
+		6e77b4d12bcaf25d4c212d65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C5F8541807ED8E00D639FC /* ViewController.m */; };
+		780f9595ed8ab36ce466cc33 /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = f36d571ccbe7daba4d554d33 /* calabash.framework */; };
+		81c34e47ea3c1a1ceb9acc37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C5F83B1807ED8E00D639FC /* Foundation.framework */; };
+		946D25C5E69F4DCB9BB1C45E /* libPods-WorkshopTalkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6690C7FD0CD41678E680163 /* libPods-WorkshopTalkTests.a */; };
+		9bbcb977768e84e414974f0c /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C5F84D1807ED8E00D639FC /* Main_iPhone.storyboard */; };
+		A0AC98AD1807F01900533274 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AC98AC1807F01900533274 /* SenTestingKit.framework */; };
 		A0C5F83C1807ED8E00D639FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C5F83B1807ED8E00D639FC /* Foundation.framework */; };
 		A0C5F83E1807ED8E00D639FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C5F83D1807ED8E00D639FC /* CoreGraphics.framework */; };
 		A0C5F8401807ED8E00D639FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C5F83F1807ED8E00D639FC /* UIKit.framework */; };
@@ -14,14 +25,14 @@
 		A0C5F8481807ED8E00D639FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C5F8471807ED8E00D639FC /* main.m */; };
 		A0C5F84C1807ED8E00D639FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C5F84B1807ED8E00D639FC /* AppDelegate.m */; };
 		A0C5F84F1807ED8E00D639FC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C5F84D1807ED8E00D639FC /* Main_iPhone.storyboard */; };
-		A0C5F8521807ED8E00D639FC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C5F8501807ED8E00D639FC /* Main_iPad.storyboard */; };
 		A0C5F8551807ED8E00D639FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C5F8541807ED8E00D639FC /* ViewController.m */; };
 		A0C5F8571807ED8E00D639FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C5F8561807ED8E00D639FC /* Images.xcassets */; };
-		A0C5F85E1807ED8E00D639FC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C5F85D1807ED8E00D639FC /* XCTest.framework */; };
 		A0C5F85F1807ED8E00D639FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C5F83B1807ED8E00D639FC /* Foundation.framework */; };
 		A0C5F8601807ED8E00D639FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C5F83F1807ED8E00D639FC /* UIKit.framework */; };
 		A0C5F8681807ED8E00D639FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0C5F8661807ED8E00D639FC /* InfoPlist.strings */; };
-		A0C5F86A1807ED8E00D639FC /* WorkshopTalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C5F8691807ED8E00D639FC /* WorkshopTalkTests.m */; };
+		A0C5F8741807EF5000D639FC /* WorkshopSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C5F8731807EF5000D639FC /* WorkshopSpecs.m */; };
+		d682869e730c62755c286f72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C5F8471807ED8E00D639FC /* main.m */; };
+		e4852580f121810572ec26e0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = dcf57823f1bb2fe2a3d14cb8 /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66B41D4159A64058AD9426B0 /* Pods-WorkshopTalkTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkshopTalkTests.xcconfig"; path = "Pods/Pods-WorkshopTalkTests.xcconfig"; sourceTree = "<group>"; };
+		A09B86121808194000196C2F /* WorkshopTalk-cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WorkshopTalk-cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0AC98AC1807F01900533274 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A0C5F8381807ED8E00D639FC /* WorkshopTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkshopTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C5F83B1807ED8E00D639FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A0C5F83D1807ED8E00D639FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,7 +60,6 @@
 		A0C5F84A1807ED8E00D639FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A0C5F84B1807ED8E00D639FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A0C5F84E1807ED8E00D639FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		A0C5F8511807ED8E00D639FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		A0C5F8531807ED8E00D639FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A0C5F8541807ED8E00D639FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A0C5F8561807ED8E00D639FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -54,10 +67,25 @@
 		A0C5F85D1807ED8E00D639FC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A0C5F8651807ED8E00D639FC /* WorkshopTalkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WorkshopTalkTests-Info.plist"; sourceTree = "<group>"; };
 		A0C5F8671807ED8E00D639FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A0C5F8691807ED8E00D639FC /* WorkshopTalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkshopTalkTests.m; sourceTree = "<group>"; };
+		A0C5F8731807EF5000D639FC /* WorkshopSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkshopSpecs.m; sourceTree = "<group>"; };
+		E6690C7FD0CD41678E680163 /* libPods-WorkshopTalkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WorkshopTalkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		dcf57823f1bb2fe2a3d14cb8 /* CFNetwork.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		f36d571ccbe7daba4d554d33 /* calabash.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; path = calabash.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		344e47cf212099bc428e67ce /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0b15ec0e55f00822afc744bf /* CoreGraphics.framework in Frameworks */,
+				2e708d5e944dc177c72ff314 /* UIKit.framework in Frameworks */,
+				81c34e47ea3c1a1ceb9acc37 /* Foundation.framework in Frameworks */,
+				e4852580f121810572ec26e0 /* CFNetwork.framework in Frameworks */,
+				780f9595ed8ab36ce466cc33 /* calabash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A0C5F8351807ED8E00D639FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -72,9 +100,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0C5F85E1807ED8E00D639FC /* XCTest.framework in Frameworks */,
+				A0AC98AD1807F01900533274 /* SenTestingKit.framework in Frameworks */,
 				A0C5F8601807ED8E00D639FC /* UIKit.framework in Frameworks */,
 				A0C5F85F1807ED8E00D639FC /* Foundation.framework in Frameworks */,
+				946D25C5E69F4DCB9BB1C45E /* libPods-WorkshopTalkTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +117,7 @@
 				A0C5F8631807ED8E00D639FC /* WorkshopTalkTests */,
 				A0C5F83A1807ED8E00D639FC /* Frameworks */,
 				A0C5F8391807ED8E00D639FC /* Products */,
+				66B41D4159A64058AD9426B0 /* Pods-WorkshopTalkTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +126,7 @@
 			children = (
 				A0C5F8381807ED8E00D639FC /* WorkshopTalk.app */,
 				A0C5F85C1807ED8E00D639FC /* WorkshopTalkTests.xctest */,
+				A09B86121808194000196C2F /* WorkshopTalk-cal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,10 +134,14 @@
 		A0C5F83A1807ED8E00D639FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A0AC98AC1807F01900533274 /* SenTestingKit.framework */,
 				A0C5F83B1807ED8E00D639FC /* Foundation.framework */,
 				A0C5F83D1807ED8E00D639FC /* CoreGraphics.framework */,
 				A0C5F83F1807ED8E00D639FC /* UIKit.framework */,
 				A0C5F85D1807ED8E00D639FC /* XCTest.framework */,
+				E6690C7FD0CD41678E680163 /* libPods-WorkshopTalkTests.a */,
+				dcf57823f1bb2fe2a3d14cb8 /* CFNetwork.framework */,
+				f36d571ccbe7daba4d554d33 /* calabash.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,7 +152,6 @@
 				A0C5F84A1807ED8E00D639FC /* AppDelegate.h */,
 				A0C5F84B1807ED8E00D639FC /* AppDelegate.m */,
 				A0C5F84D1807ED8E00D639FC /* Main_iPhone.storyboard */,
-				A0C5F8501807ED8E00D639FC /* Main_iPad.storyboard */,
 				A0C5F8531807ED8E00D639FC /* ViewController.h */,
 				A0C5F8541807ED8E00D639FC /* ViewController.m */,
 				A0C5F8561807ED8E00D639FC /* Images.xcassets */,
@@ -140,8 +174,8 @@
 		A0C5F8631807ED8E00D639FC /* WorkshopTalkTests */ = {
 			isa = PBXGroup;
 			children = (
-				A0C5F8691807ED8E00D639FC /* WorkshopTalkTests.m */,
 				A0C5F8641807ED8E00D639FC /* Supporting Files */,
+				A0C5F8731807EF5000D639FC /* WorkshopSpecs.m */,
 			);
 			path = WorkshopTalkTests;
 			sourceTree = "<group>";
@@ -158,6 +192,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		77ebf56198e1be3dd94e0646 /* WorkshopTalk-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70f83adb88e3b30f104f55bd /* Build configuration list for PBXNativeTarget "WorkshopTalk-cal" */;
+			buildPhases = (
+				c305f121b530c87dc583237a /* Sources */,
+				344e47cf212099bc428e67ce /* Frameworks */,
+				e86142f6d207508503d0219d /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WorkshopTalk-cal";
+			productName = "WorkshopTalk-cal";
+			productReference = A09B86121808194000196C2F /* WorkshopTalk-cal.app */;
+			productType = "com.apple.product-type.application";
+		};
 		A0C5F8371807ED8E00D639FC /* WorkshopTalk */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0C5F86D1807ED8E00D639FC /* Build configuration list for PBXNativeTarget "WorkshopTalk" */;
@@ -179,9 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0C5F8701807ED8E00D639FC /* Build configuration list for PBXNativeTarget "WorkshopTalkTests" */;
 			buildPhases = (
+				36D3AFB53DE34261B969DD26 /* Check Pods Manifest.lock */,
 				A0C5F8581807ED8E00D639FC /* Sources */,
 				A0C5F8591807ED8E00D639FC /* Frameworks */,
 				A0C5F85A1807ED8E00D639FC /* Resources */,
+				6EA292BDFA404F2B933C2A49 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,6 +275,7 @@
 			targets = (
 				A0C5F8371807ED8E00D639FC /* WorkshopTalk */,
 				A0C5F85B1807ED8E00D639FC /* WorkshopTalkTests */,
+				77ebf56198e1be3dd94e0646 /* WorkshopTalk-cal */,
 			);
 		};
 /* End PBXProject section */
@@ -231,7 +285,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0C5F8521807ED8E00D639FC /* Main_iPad.storyboard in Resources */,
 				A0C5F8571807ED8E00D639FC /* Images.xcassets in Resources */,
 				A0C5F84F1807ED8E00D639FC /* Main_iPhone.storyboard in Resources */,
 				A0C5F8461807ED8E00D639FC /* InfoPlist.strings in Resources */,
@@ -246,7 +299,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		e86142f6d207508503d0219d /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17038a641d368aad8a21f81e /* Images.xcassets in Resources */,
+				9bbcb977768e84e414974f0c /* Main_iPhone.storyboard in Resources */,
+				2ba748f0edaad060577ef5aa /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36D3AFB53DE34261B969DD26 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6EA292BDFA404F2B933C2A49 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-WorkshopTalkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A0C5F8341807ED8E00D639FC /* Sources */ = {
@@ -263,7 +359,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0C5F86A1807ED8E00D639FC /* WorkshopTalkTests.m in Sources */,
+				A0C5F8741807EF5000D639FC /* WorkshopSpecs.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		c305f121b530c87dc583237a /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6e77b4d12bcaf25d4c212d65 /* ViewController.m in Sources */,
+				3776e8e5c9993bdbd702c2c1 /* AppDelegate.m in Sources */,
+				d682869e730c62755c286f72 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,14 +400,6 @@
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		A0C5F8501807ED8E00D639FC /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A0C5F8511807ED8E00D639FC /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		A0C5F8661807ED8E00D639FC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -313,11 +411,61 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		524789eab88d70553b74008a /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorkshopTalk/WorkshopTalk-Prefix.pch";
+				INFOPLIST_FILE = "WorkshopTalk/WorkshopTalk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		61114ba6af8d7b4f4c0624bb /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorkshopTalk/WorkshopTalk-Prefix.pch";
+				INFOPLIST_FILE = "WorkshopTalk/WorkshopTalk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		A0C5F86B1807ED8E00D639FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -346,7 +494,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -357,7 +505,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -380,7 +528,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -390,11 +538,13 @@
 		A0C5F86E1807ED8E00D639FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WorkshopTalk/WorkshopTalk-Prefix.pch";
 				INFOPLIST_FILE = "WorkshopTalk/WorkshopTalk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -403,11 +553,13 @@
 		A0C5F86F1807ED8E00D639FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WorkshopTalk/WorkshopTalk-Prefix.pch";
 				INFOPLIST_FILE = "WorkshopTalk/WorkshopTalk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -415,8 +567,9 @@
 		};
 		A0C5F8711807ED8E00D639FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66B41D4159A64058AD9426B0 /* Pods-WorkshopTalkTests.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WorkshopTalk.app/WorkshopTalk";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -438,8 +591,9 @@
 		};
 		A0C5F8721807ED8E00D639FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66B41D4159A64058AD9426B0 /* Pods-WorkshopTalkTests.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WorkshopTalk.app/WorkshopTalk";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -458,6 +612,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		70f83adb88e3b30f104f55bd /* Build configuration list for PBXNativeTarget "WorkshopTalk-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524789eab88d70553b74008a /* Debug */,
+				61114ba6af8d7b4f4c0624bb /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A0C5F8331807ED8E00D639FC /* Build configuration list for PBXProject "WorkshopTalk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -474,6 +637,7 @@
 				A0C5F86F1807ED8E00D639FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0C5F8701807ED8E00D639FC /* Build configuration list for PBXNativeTarget "WorkshopTalkTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +646,7 @@
 				A0C5F8721807ED8E00D639FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

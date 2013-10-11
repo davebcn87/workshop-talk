@@ -1,12 +1,14 @@
 PODS:
+  - Kiwi (2.2.2):
+    - Kiwi/SenTestingKit
   - Kiwi/ARC (2.2.2)
   - Kiwi/NonARC (2.2.2)
-  - Kiwi/XCTest (2.2.2):
+  - Kiwi/SenTestingKit (2.2.2):
     - Kiwi/ARC
     - Kiwi/NonARC
 
 DEPENDENCIES:
-  - Kiwi/XCTest
+  - Kiwi
 
 SPEC CHECKSUMS:
   Kiwi: 03539aeb004ccd42bdbc31253617b26364315df4

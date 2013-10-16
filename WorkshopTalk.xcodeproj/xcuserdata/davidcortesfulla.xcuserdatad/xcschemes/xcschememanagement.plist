@@ -14,10 +14,20 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>WorkshopTalkTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>77ebf56198e1be3dd94e0646</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A031515D18082A1600579CA8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

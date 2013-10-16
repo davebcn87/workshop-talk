@@ -10,6 +10,4 @@ before_install: gem install cocoapods calabash-cucumber
 script:
 - xctool ONLY_ACTIVE_ARCH=NO -workspace WorkshopTalk.xcworkspace -scheme WorkshopTalk build -sdk iphonesimulator
 - xctool ONLY_ACTIVE_ARCH=NO -workspace WorkshopTalk.xcworkspace -scheme WorkshopTalk-cal build -sdk iphonesimulator
-- ls -la 
-- la -la ./DerivedData/WorkshopTalk/Build/Products/Debug-iphonesimulator
-- cucumber
+- SDK_VERSION=6.0 DEVICE=iphone RESET_BETWEEN_SCENARIOS=1 cucumber
